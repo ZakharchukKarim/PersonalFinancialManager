@@ -18,6 +18,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from finance.views import finance_page
+from people.views import people_page
+from meeting_sessions.views import index_page, meeting_sessions_page
+from stats.views import stats_page
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("", index_page),
+    path("people/", people_page),
+    path("meeting_sessions/", meeting_sessions_page),
+    path("stats/", stats_page),
+    path("finance/", finance_page),
 ]

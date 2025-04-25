@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/indexPage.css">
     <title>Index</title>
 </head>
 <body>
-<h1>Hello GGWP</h1>
+<div class="center-div">
+<form>
+      Название:
+  <br>
+    <input type="text" name="Name">
+    <br>
+      Количество:
+    <br>
+      <input type="number" name="count" step="0.01">
+  <br>
+      Стоимость:
+  <br>
+      <input type="number" name="price" step="0.01">
+  <br>
+    <input type="radio" id="expenseChoice" name="transactions" value="expense" />
+    <label for="expenseChoice">Траты</label>
+    <input type="radio" id="incomeChoice" name="transactions" value="income" />
+    <label for="incomeChoice">Доход</label>
+  <input type="submit" value="OK">
+</form>
+    </div>
 </body>
 </html>

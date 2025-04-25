@@ -70,6 +70,10 @@ TEMPLATES = [
     },
 ]
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
 WSGI_APPLICATION = "managerFinanc.wsgi.application"
 
 
@@ -124,3 +128,4 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+

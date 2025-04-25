@@ -1,0 +1,18 @@
+div{
+    color:#2F4F4F;
+    font-size: 20px;
+
+}
+
+input{
+    border-color:#2F4F4F;
+    font-size: 20px
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
